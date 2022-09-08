@@ -30,7 +30,7 @@ function gotPoses(results)
     console.log("nose x = " + noseX);
     console.log("nose y = " + noseY);
     noseX = results[0].pose.nose.x - 15;
-    noseY = results[0].pose.nose.y - 5;
+    noseY = results[0].pose.nose.y - 2;
  }
 }
 
